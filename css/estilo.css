@@ -60,6 +60,7 @@
 /*section skills*/
 #Skills {
     height: auto;
+
 }
 
 
@@ -68,16 +69,27 @@
 }
 
 .bgimage2 {
-
     background-image: url(../img/5.jpg);
-
     background-size: cover;
     background-position: center;
 }
 
 .card {
     height: auto;
+    border-radius: 20px;
+    /*box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    color: black;
+    */
 }
+
+.card img {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+/* .card-body {
+    background-color: white;
+} */
 
 .card:hover {
     transform: scale(1.05);
@@ -90,3 +102,51 @@
     background-size: cover;
     background-position: center;
 } */
+
+
+/**seciton 4 - Proyectos*/
+#Proyectos {
+    height: 100vh;
+    margin-bottom: 100px;
+}
+
+#carouselExampleDark .card {
+    background-color: white;
+}
+
+#carouselExampleDark .card img {
+    height: 450px;
+    object-fit: cover;
+    width: 100%;
+}
+
+
+#proyectos .carousel-control-prev-icon {
+    background-color: black;
+    /* fondo negro */
+    filter: invert(1);
+    /* icono blanco */
+    border-radius: 50%;
+    /* opcional: circulito */
+    padding: 10px;
+}
+
+#proyectos .carousel-control-next-icon {
+    background-color: black;
+    /* fondo negro */
+    filter: invert(1);
+    /* icono blanco */
+    border-radius: 50%;
+    /* opcional: circulito */
+    padding: 10px;
+}
+
+.modal-content .btn-close {
+    filter: invert(1);
+}
+
+.modal p {
+    text-align: justify;
+    width: 95%;
+    align-items: center;
+}
