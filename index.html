@@ -5,6 +5,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/estilo.css">
     <title>Document</title>
 </head>
@@ -14,7 +17,7 @@
 
     <nav class="navbar navbar-dark bg-dark fixed-top navbar-expand-lg">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#">PORTAFOLIO</a>
+            <a class="navbar-brand" href="#">MI PORTAFOLIO</a>
 
             <!-- Menú horizontal en pantallas grandes -->
             <div class="collapse navbar-collapse d-none d-lg-flex">
@@ -37,7 +40,7 @@
             <div class="offcanvas offcanvas-end bg-dark text-white d-lg-none" data-bs-scroll="true" tabindex="-1"
                 id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
                 <div class="offcanvas-header">
-                    <h5 class="offcanvas-title" id="offcanvasNavbarLabel">PORTAFOLIO</h5>
+                    <h5 class="offcanvas-title" id="offcanvasNavbarLabel">MI PORTAFOLIO</h5>
                     <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
                         aria-label="Close"></button>
                 </div>
@@ -49,6 +52,12 @@
                         <li class="nav-item"><a class="nav-link text-white" href="#proyectos">Proyectos</a></li>
                         <li class="nav-item"><a class="nav-link text-white" href="#contact">Contacto</a></li>
                     </ul>
+                </div>
+
+                <div class="offcanvas-footer text-center">
+
+                    <p>&copy; FONKI 2025</p>
+
                 </div>
             </div>
         </div>
@@ -62,13 +71,14 @@
 
             <div class="col-lg-6 col-md-8 col-sm-12">
                 <p class="hero_desc">
-                    Mi nombre completo es Frank Anderson Pezo Gómez y este es mi portafolio donde comparto algunos
-                    de
-                    los proyectos en los que he trabajado, así como para mostrar mis habilidades y enfoque en el
-                    desarrollo de software.
+                    Este es un espacio creado para mostrar algunos de los proyectos en los que he trabajado, además de
+                    resaltar
+                    mis habilidades y el enfoque que aplico en el desarrollo de software. Aquí encontrarás ejemplos de
+                    mi
+                    experiencia, dedicación y pasión por la tecnología.
                 </p>
             </div>
-            +
+
         </div>
     </section>
 
@@ -83,23 +93,23 @@
             </div>
             <div class="col-md-6 mt-3 mt-md-0">
 
-                <ul>
-                    <li class="infoName">Nombre: Frank Pezo</li>
-                    <li class="infoName">Edad: 24 </li>
+
+                <ul class="list-unstyled">
+                    <li class="infoName"><i class="bi bi-person-fill me-2"></i><b>Nombre:</b> Frank Anderson Pezo Gómez
+                    </li>
+                    <li class="infoName"><i class="bi bi-calendar-fill me-2"></i><b>Edad:</b> 24</li>
                 </ul>
+
                 <p class="info-sect2">
-                    Mi nombre completo es Frank Anderson Pezo Gómez y este es mi portafolio donde comparto alguno de los
-                    proyectos en los que he trabajado, así como para mostrar mis habilidades y enfoque en el desarrollo
-                    de software.
-                    Actualmente tengo 24 años y soy <b>bachiller de la carrera de Ingeniería de sistema e
-                        informática de la
-                        Universidad Nacional de la Amazonía Peruana (UNAP)</b> me interesa cada día aprender nuevas
-                    cosas
-                    en
-                    especial en el ámbito de desarrollo de software e ir ganado experiencia. También apasionado a la
-                    lectura, música, ciencia y disfrutar tiempo de calidad con los amigos.
+                    Soy bachiller en <b>Ingeniería de Sistemas e Informática</b> por la
+                    Universidad Nacional de la Amazonía Peruana (UNAP).
+                    Tengo un gran interés en el desarrollo de software, en especial en aprender nuevas tecnologías
+                    y fortalecer mi experiencia profesional.
+                    Además, me apasiona la lectura, la música, la ciencia y dedicar tiempo a actividades que me
+                    inspiran.
                 </p>
-                <a href="" class="btn-cv btn btn-primary rounded-pill">Ver Curriculum Vitae</a>
+                <a href="" class="btn-cv btn btn-primary rounded-pill" data-bs-toggle="modal"
+                    data-bs-target="#pdfModal">Ver Curriculum Vitae</a>
 
                 <p class="info-hobbies mt-4">Mis hobbies: </p>
                 <div class="d-flex flex-row">
@@ -133,8 +143,8 @@
                 <h3 class="text-start mb-5">Algoritmos, Infraestructura y soporte técnico</h3>
                 <div class="d-lg-flex flex-lg-row justify-content-start  d-none gap-4">
                     <!--1-->
-                    <div class="card bg-dark" style="width: 18rem;">
-                        <img src="img/poo.jpg" height="300" class="card-img-top" alt="...">
+                    <div class="card bg-dark" style="width: 16rem; height: 30rem;">
+                        <img src="img/poo.jpg" height="200" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h1 class="fs-5">Programación orientada a objetos</h1>
                             <p class="card-text"><b>Nivel: Intermedio</b></p>
@@ -144,8 +154,8 @@
                     </div>
 
                     <!--2-->
-                    <div class="card bg-dark" style="width: 18rem;">
-                        <img src="img/redes.jpg" height="300" class="card-img-top" alt="...">
+                    <div class="card bg-dark" style="width: 16rem; height: 30rem;">
+                        <img src="img/redes.jpg" height="200" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h1 class="fs-5">Redes</h1>
                             <p class="card-text"><b>Nivel: Intermedio</b></p>
@@ -155,8 +165,8 @@
                         </div>
                     </div>
                     <!--3-->
-                    <div class="card bg-dark" style="width: 18rem;">
-                        <img src="img/hikvision.jpg" height="300" class="card-img-top" alt="...">
+                    <div class="card bg-dark" style="width: 16rem; height: 30rem;">
+                        <img src="img/hikvision.jpg" height="200" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h1 class="fs-5">Cámaras de seguridad (CCTV)</h1>
                             <p class="card-text"><b>Nivel: Intermedio</b></p>
@@ -179,8 +189,8 @@
                                 <div class="d-flex justify-content-center align-items-center">
 
                                     <!--1-->
-                                    <div class="card bg-dark" style="width: 18rem;">
-                                        <img src="img/poo.jpg" height="300" class="card-img-top" alt="...">
+                                    <div class="card bg-dark" style="width: 16rem; height: 30rem;">
+                                        <img src="img/poo.jpg" height="200" class="card-img-top" alt="...">
                                         <div class="card-body">
                                             <h1 class="fs-5">Programación orientada a objetos</h1>
                                             <p class="card-text"><b>Nivel: Intermedio</b></p>
@@ -199,8 +209,8 @@
                                 <div class="d-flex justify-content-center align-items-center">
 
                                     <!--1-->
-                                    <div class="card bg-dark" style="width: 18rem;">
-                                        <img src="img/redes.jpg" height="300" class="card-img-top" alt="...">
+                                    <div class="card bg-dark" style="width: 16rem; height: 30rem;">
+                                        <img src="img/redes.jpg" height="200" class="card-img-top" alt="...">
                                         <div class="card-body">
                                             <h1 class="fs-5">Redes</h1>
                                             <p class="card-text"><b>Nivel: Intermedio</b></p>
@@ -219,8 +229,8 @@
                             <div class="carousel-item ">
                                 <div class="d-flex justify-content-center align-items-center">
 
-                                    <div class="card bg-dark" style="width: 18rem;">
-                                        <img src="img/hikvision.jpg" height="300" class="card-img-top" alt="...">
+                                    <div class="card bg-dark" style="width: 16rem; height: 30rem;">
+                                        <img src="img/hikvision.jpg" height="200" class="card-img-top" alt="...">
                                         <div class="card-body">
                                             <h1 class="fs-5">Cámaras de seguridad (CCTV)</h1>
                                             <p class="card-text"><b>Nivel: Intermedio</b></p>
@@ -260,8 +270,8 @@
 
                 <div class="d-lg-flex flex-lg-row justify-content-start d-none  gap-4">
                     <!--1-->
-                    <div class="card bg-dark" style="width: 18rem;">
-                        <img src="img/php.jpg" height="300" class="card-img-top" alt="...">
+                    <div class="card bg-dark" style="width: 16rem; height: 30rem;">
+                        <img src="img/php.jpg" height="200" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h1 class="fs-5">PHP</h1>
                             <p class="card-text"><b>Nivel: Intermedio</b></p>
@@ -273,8 +283,8 @@
                     </div>
 
                     <!--2-->
-                    <div class="card bg-dark" style="width: 18rem;">
-                        <img src="img/cshar.jpg" height="300" class="card-img-top" alt="...">
+                    <div class="card bg-dark" style="width: 16rem; height: 30rem;">
+                        <img src="img/cshar.jpg" height="200" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h1 class="fs-5">C#</h1>
                             <p class="card-text"><b>Nivel: Básico</b></p>
@@ -282,8 +292,8 @@
                         </div>
                     </div>
                     <!--3-->
-                    <div class="card bg-dark" style="width: 18rem;">
-                        <img src="img/python.jpg" height="300" class="card-img-top" alt="...">
+                    <div class="card bg-dark" style="width: 16rem; height: 30rem;">
+                        <img src="img/python.jpg" height="200" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h1 class="fs-5">PYTHON</h1>
                             <p class="card-text"><b>Nivel: Básico</b></p>
@@ -291,8 +301,8 @@
                         </div>
                     </div>
                     <!--4-->
-                    <div class="card bg-dark" style="width: 18rem;">
-                        <img src="img/dart.png" height="300" class="card-img-top" alt="...">
+                    <div class="card bg-dark" style="width: 16rem; height: 30rem;">
+                        <img src="img/dart.png" height="200" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h1 class="fs-5">DART</h1>
                             <p class="card-text"><b>Nivel: Básico</b></p>
@@ -311,8 +321,8 @@
                                 <div class="d-flex justify-content-center align-items-center">
 
                                     <!--1-->
-                                    <div class="card bg-dark" style="width: 18rem;">
-                                        <img src="img/php.jpg" height="300" class="card-img-top" alt="...">
+                                    <div class="card bg-dark" style="width: 16rem; height: 30rem;">
+                                        <img src="img/php.jpg" height="200" class="card-img-top" alt="...">
                                         <div class="card-body">
                                             <h1 class="fs-5">PHP</h1>
                                             <p class="card-text"><b>Nivel: Intermedio</b></p>
@@ -335,8 +345,8 @@
 
 
                                     <!--2-->
-                                    <div class="card bg-dark" style="width: 18rem;">
-                                        <img src="img/cshar.jpg" height="300" class="card-img-top" alt="...">
+                                    <div class="card bg-dark" style="width: 16rem; height: 30rem;">
+                                        <img src="img/cshar.jpg" height="200" class="card-img-top" alt="...">
                                         <div class="card-body">
                                             <h1 class="fs-5">C#</h1>
                                             <p class="card-text"><b>Nivel: Básico</b></p>
@@ -354,8 +364,8 @@
                                 <div class="d-flex justify-content-center align-items-center">
 
                                     <!--3-->
-                                    <div class="card bg-dark" style="width: 18rem;">
-                                        <img src="img/python.jpg" height="300" class="card-img-top" alt="...">
+                                    <div class="card bg-dark" style="width: 16rem; height: 30rem;">
+                                        <img src="img/python.jpg" height="200" class="card-img-top" alt="...">
                                         <div class="card-body">
                                             <h1 class="fs-5">PYTHON</h1>
                                             <p class="card-text"><b>Nivel: Básico</b></p>
@@ -373,8 +383,8 @@
                                 <div class="d-flex justify-content-center align-items-center">
 
                                     <!--4-->
-                                    <div class="card bg-dark" style="width: 18rem;">
-                                        <img src="img/dart.png" height="300" class="card-img-top" alt="...">
+                                    <div class="card bg-dark" style="width: 16rem; height: 30rem;">
+                                        <img src="img/dart.png" height="200" class="card-img-top" alt="...">
                                         <div class="card-body">
                                             <h1 class="fs-5">DART</h1>
                                             <p class="card-text"><b>Nivel: Básico</b></p>
@@ -410,8 +420,8 @@
 
                 <div class="d-lg-flex flex-lg-row justify-content-start d-none gap-4">
                     <!--1-->
-                    <div class="card bg-dark" style="width: 18rem;">
-                        <img src="img/laravel.jpg" height="300" class="card-img-top" alt="...">
+                    <div class="card bg-dark" style="width: 16rem; height: 30rem;">
+                        <img src="img/laravel.jpg" height="200 " class="card-img-top" alt="...">
                         <div class="card-body">
                             <h1 class="fs-5">Laravel</h1>
                             <p class="card-text"><b>Nivel: Intermedio</b></p>
@@ -422,8 +432,8 @@
                     </div>
 
                     <!--2-->
-                    <div class="card bg-dark" style="width: 18rem;">
-                        <img src="img/flutter.jpg" height="300" class="card-img-top" alt="...">
+                    <div class="card bg-dark" style="width: 16rem; height: 30rem;">
+                        <img src="img/flutter.jpg" height="200" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h1 class="fs-5">Flutter</h1>
                             <p class="card-text"><b>Nivel: Intermedio</b></p>
@@ -432,8 +442,8 @@
                         </div>
                     </div>
                     <!--3-->
-                    <div class="card bg-dark" style="width: 18rem;">
-                        <img src="img/htmlCss.jpg" height="300" class="card-img-top" alt="...">
+                    <div class="card bg-dark" style="width: 16rem; height: 30rem;">
+                        <img src="img/htmlCss.jpg" height="200" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h1 class="fs-5">HTML y Css</h1>
                             <p class="card-text"><b>Nivel: Intermedio</b></p>
@@ -443,8 +453,8 @@
                     </div>
 
                     <!--4-->
-                    <div class="card bg-dark" style="width: 18rem;">
-                        <img src="img/boostrap.jpg" height="300" class="card-img-top" alt="...">
+                    <div class="card bg-dark" style="width: 16rem; height: 30rem;">
+                        <img src="img/boostrap.jpg" height="200" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h1 class="fs-5">bootstrap</h1>
                             <p class="card-text"><b>Nivel: Intermedio</b></p>
@@ -465,8 +475,8 @@
                                 <div class="d-flex justify-content-center align-items-center">
 
                                     <!--1-->
-                                    <div class="card bg-dark" style="width: 18rem;">
-                                        <img src="img/laravel.jpg" height="300" class="card-img-top" alt="...">
+                                    <div class="card bg-dark" style="width: 16rem; height: 30rem;">
+                                        <img src="img/laravel.jpg" height="200" class="card-img-top" alt="...">
                                         <div class="card-body">
                                             <h1 class="fs-5">Laravel</h1>
                                             <p class="card-text"><b>Nivel: Intermedio</b></p>
@@ -487,8 +497,8 @@
                                 <div class="d-flex justify-content-center align-items-center">
 
                                     <!--2-->
-                                    <div class="card bg-dark" style="width: 18rem;">
-                                        <img src="img/flutter.jpg" height="300" class="card-img-top" alt="...">
+                                    <div class="card bg-dark" style="width: 16rem; height: 30rem;">
+                                        <img src="img/flutter.jpg" height="200" class="card-img-top" alt="...">
                                         <div class="card-body">
                                             <h1 class="fs-5">Flutter</h1>
                                             <p class="card-text"><b>Nivel: Intermedio</b></p>
@@ -507,8 +517,8 @@
                                 <div class="d-flex justify-content-center align-items-center">
 
                                     <!--3-->
-                                    <div class="card bg-dark" style="width: 18rem;">
-                                        <img src="img/htmlCss.jpg" height="300" class="card-img-top" alt="...">
+                                    <div class="card bg-dark" style="width: 16rem; height: 30rem;">
+                                        <img src="img/htmlCss.jpg" height="200" class="card-img-top" alt="...">
                                         <div class="card-body">
                                             <h1 class="fs-5">HTML y Css</h1>
                                             <p class="card-text"><b>Nivel: Intermedio</b></p>
@@ -527,8 +537,8 @@
                                 <div class="d-flex justify-content-center align-items-center">
 
                                     <!--4-->
-                                    <div class="card bg-dark" style="width: 18rem;">
-                                        <img src="img/boostrap.jpg" height="300" class="card-img-top" alt="...">
+                                    <div class="card bg-dark" style="width: 16rem; height: 30rem;">
+                                        <img src="img/boostrap.jpg" height="200" class="card-img-top" alt="...">
                                         <div class="card-body">
                                             <h1 class="fs-5">bootstrap</h1>
                                             <p class="card-text"><b>Nivel: Intermedio</b></p>
@@ -567,8 +577,8 @@
 
                 <div class="d-lg-flex flex-lg-row justify-content-start d-none  gap-4">
                     <!--1-->
-                    <div class="card bg-dark" style="width: 18rem;">
-                        <img src="img/Git y github.jpg" height="300" class="card-img-top" alt="...">
+                    <div class="card bg-dark" style="width: 16rem; height: 30rem;">
+                        <img src="img/Git y github.jpg" height="200" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h1 class="fs-5">Git y Github</h1>
                             <p class="card-text"><b>Nivel: Intermedio</b></p>
@@ -579,8 +589,8 @@
                     </div>
 
                     <!--2-->
-                    <div class="card bg-dark" style="width: 18rem;">
-                        <img src="img/office.jpg" height="300" class="card-img-top" alt="...">
+                    <div class="card bg-dark" style="width: 16rem; height: 30rem;">
+                        <img src="img/office.jpg" height="200" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h1 class="fs-5">Microsoft Office</h1>
                             <p class="card-text"><b>Nivel: Intermedio</b></p>
@@ -602,8 +612,8 @@
                                 <div class="d-flex justify-content-center align-items-center">
 
                                     <!--1-->
-                                    <div class="card bg-dark" style="width: 18rem;">
-                                        <img src="img/Git y github.jpg" height="300" class="card-img-top" alt="...">
+                                    <div class="card bg-dark" style="width: 16rem; height: 30rem;">
+                                        <img src="img/Git y github.jpg" height="200" class="card-img-top" alt="...">
                                         <div class="card-body">
                                             <h1 class="fs-5">Git y Github</h1>
                                             <p class="card-text"><b>Nivel: Intermedio</b></p>
@@ -624,8 +634,8 @@
                                 <div class="d-flex justify-content-center align-items-center">
 
                                     <!--2-->
-                                    <div class="card bg-dark" style="width: 18rem;">
-                                        <img src="img/office.jpg" height="300" class="card-img-top" alt="...">
+                                    <div class="card bg-dark" style="width: 16rem; height: 30rem;">
+                                        <img src="img/office.jpg" height="200" class="card-img-top" alt="...">
                                         <div class="card-body">
                                             <h1 class="fs-5">Microsoft Office</h1>
                                             <p class="card-text"><b>Nivel: Intermedio</b></p>
@@ -869,12 +879,84 @@
             </div>
 
 
+            <br><br>
+    </section>
+
+    <!-- Sección Contacto-->
+    <section id="contact" class="bg-dark text-white">
+        <div class="container mt-3 contactContent">
+            <div class="row mt-4">
+                <h2 class="text-center mb-5 mt-5 title-sect2">Contacto</h2>
+
+                <!-- Mapa -->
+                <div class="col-lg-6">
+                    <div style="max-width:100%;overflow:hidden;width:450px;height:450px;">
+                        <div id="embedmap-canvas" style="height:100%; width:100%;max-width:100%;">
+                            <iframe
+                                style="height:100%;width:100%;border:0;border-radius:15px;box-shadow:0 0 20px rgba(0,0,0,0.6);"
+                                frameborder="0"
+                                src="https://www.google.com/maps/embed/v1/place?q=Iquitos,Peru&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8">
+                            </iframe>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Redes Sociales -->
+                <div class="col-lg-6 d-flex flex-column justify-content-center align-items-center">
+                    <h3 class="m-5 infoSection2">Mis Redes</h3>
+                    <p class="text-center mb-4">Hablemos de proyectos 🚀,Envíame un mensaje a mi correo:
+                        <b>frankanderpg.2000@gmail.com</b><br> o ¡contáctame por cualquiera de mis redes
+                        sociales!
+                    </p>
+
+                    <!-- WhatsApp -->
+                    <a href="https://wa.me/51969071658" target="_blank"
+                        class="btn btn-success mb-3 w-75 rounded-pill shadow-lg d-flex align-items-center justify-content-center">
+                        <img src="img/whatsapp.png" alt="WhatsApp" width="30" class="me-2">
+                        WhatsApp
+                    </a>
+
+
+                    <!-- LinkedIn -->
+                    <a href="https://www.linkedin.com/in/frank-pezo-g%C3%B3mez-1078711b6/" target="_blank"
+                        class="btn btn-primary mb-3 w-75 rounded-pill shadow-lg d-flex align-items-center justify-content-center">
+                        <img src="img/linkedin.png" alt="LinkedIn" width="30" class="me-2">
+                        LinkedIn
+                    </a>
+
+                    <!-- GitHub -->
+                    <a href="https://github.com/frankpezo/" target="_blank"
+                        class="btn btn-light mb-3 w-75 rounded-pill shadow-lg d-flex align-items-center justify-content-center">
+                        <img src="img/github.png" alt="GitHub" width="30" class="me-2">
+                        GitHub
+                    </a>
+                </div>
+            </div>
+        </div>
+
 
     </section>
 
 
-    <!---MOdales-->
 
+    <!---MOdales--
+    <-- Modal CV - PDF-->
+
+    <div class="modal fade" id="pdfModal" tabindex="-1" aria-labelledby="pdfModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-xl"> <!-- modal-xl = ancho grande -->
+            <div class="modal-content">
+                <div class="modal-header bg-dark text-white">
+                    <h5 class="modal-title" id="pdfModalLabel">Curriculum Vitae</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body p-0">
+                    <!-- Aquí mostramos el PDF -->
+                    <iframe src="img/cv/CV_FRANK_PEZO_GOMEZ_.pdf" width="100%" height="600px"
+                        style="border:none;"></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
     <!-- Proyecto 1-->
     <div class="modal fade " id="modalProyecto3" tabindex="-1" aria-labelledby="modalProyecto3Label" aria-hidden="true">
         <div class="modal-dialog modal-lg">
@@ -1369,7 +1451,8 @@
     <script src=" js/bootstrap.bundle.min.js">
 
     </script>
-    <script></script>
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
 </body>
 
 </html>
